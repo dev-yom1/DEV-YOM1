@@ -1,0 +1,30 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="1" stop-color="#001B46"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(965 75) rotate(145) scale(430 290)">
+      <stop stop-color="#0066FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0066FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
+  <rect x="42" y="42" width="1116" height="276" rx="16" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <circle cx="76" cy="72" r="6" fill="#0066FF"/>
+  <circle cx="98" cy="72" r="6" stroke="#FFFFFF" stroke-opacity="0.35"/>
+  <circle cx="120" cy="72" r="6" stroke="#FFFFFF" stroke-opacity="0.35"/>
+  <text x="153" y="78" fill="#FFFFFF" fill-opacity="0.55" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">yomi@dev: ~/profile</text>
+  <text x="76" y="157" fill="#0066FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">$ whoami</text>
+  <text x="76" y="232" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="74" font-weight="800" letter-spacing="-5">YOMI.DEV</text>
+  <text x="80" y="275" fill="#FFFFFF" fill-opacity="0.64" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">Python  /  Kotlin  /  JavaScript  /  TypeScript</text>
+  <rect x="842" y="122" width="258" height="112" rx="12" fill="#000000" fill-opacity="0.58" stroke="#0066FF" stroke-opacity="0.72"/>
+  <text x="868" y="154" fill="#0066FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">STATUS</text>
+  <text x="868" y="187" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">build → test → ship</text>
+  <text x="868" y="216" fill="#FFFFFF" fill-opacity="0.48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">CLI · WEB · API · AUTOMATION</text>
+</svg>
