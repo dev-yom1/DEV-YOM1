@@ -16,24 +16,25 @@
 
 ## `> about`
 
-こんにちは、**YOMI**です。
+Hi, I'm **YOMI** — a developer focused on building software and developer tools that are useful, clear, and actually runnable.
 
-Python、Kotlin、JavaScript、TypeScriptを使って、**CLI・Web・API連携・自動化ツール**などを開発しています。
+My **primary languages** are **Python, Kotlin, JavaScript, and TypeScript**. I also work across systems, data, shell, functional, hardware, blockchain, formal-methods, and legacy ecosystems.
 
-新しい技術はまず自分で触って確かめ、動作確認だけで終わらせず、**実際に使える形まで仕上げる**ことを大切にしています。
+<sub lang="ja">ソフトウェアや開発ツールを中心に開発しています。主にPython、Kotlin、JavaScript、TypeScriptを使いながら、用途に応じて幅広い言語・技術を扱っています。</sub>
 
 ```ts
 const yomi = {
   role: "Developer",
-  languages: ["Python", "Kotlin", "JavaScript", "TypeScript"],
+  primary: ["Python", "Kotlin", "JavaScript", "TypeScript"],
   focus: ["CLI", "Web", "REST API", "Automation"],
+  range: "systems → formal methods",
   approach: "build → test → ship",
 };
 ```
 
-## `> stack --list`
+## `> stack --primary`
 
-### Languages
+### Primary languages
 
 <p>
   <img src="https://img.shields.io/badge/Python-0066FF?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -59,23 +60,61 @@ const yomi = {
   <img src="https://img.shields.io/badge/GitHub_Actions-0066FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
+<details>
+<summary><strong>More languages & technologies — 105 entries</strong> / その他の対応言語・技術</summary>
+
+<br />
+
+> This includes programming languages, query languages, DSLs, shells, HDLs, proof languages, and domain-specific languages. The list is intentionally broader than my primary stack.
+
+**General / Systems**  
+Java · C# · PHP · Ruby · Go · Rust · Dart · Swift · C · C++ · Assembly · Zig · Ada · D · Fortran · Objective-C · Objective-C++ · CUDA · Scala · Groovy · Nim · Crystal · V · Hack · ReScript
+
+**Data / Query / Scientific**  
+SQL · PL/SQL · T-SQL · PL/pgSQL · GraphQL · Cypher · SPARQL · DAX · Power Query M · R · Julia · MATLAB · Wolfram Language · Maple · SAS · Q · K
+
+**Shell / Automation / Scripting**  
+Bash · Shell · Zsh · Fish · PowerShell · Batch · Perl · Tcl · Lua · AppleScript
+
+**Functional / Lisp / Concurrent**  
+Haskell · OCaml · F# · Clojure · Common Lisp · Scheme · Racket · Elixir · Erlang · Standard ML · Elm
+
+**Formal Methods / Proof**  
+Agda · Idris · Coq · Gallina · Lean · Prolog
+
+**Hardware / HDL**  
+Verilog · SystemVerilog · VHDL · Chisel · SystemC · Bluespec
+
+**Blockchain / Smart Contracts**  
+Solidity · Move · Vyper · Cairo · Clarity · Michelson · Motoko
+
+**Enterprise / Legacy**  
+COBOL · Visual Basic · VB.NET · VBA · ABAP · RPG · PL/I · Delphi · Object Pascal · Pascal · PowerBuilder · Apex
+
+**Creative / Domain-specific**  
+GDScript · Haxe · Smalltalk · LabVIEW · OpenSCAD · Scratch · Logo
+
+</details>
+
 ## `> projects --featured`
 
 ### [S7 — Salta7 CLI](https://github.com/dev-yom1/S7)
 
-> Salta7 Store APIをターミナルから扱うためのPython CLIクライアント。
+> A Python CLI client for operating the Salta7 Store API from the terminal.
 
-S7は、API操作をコマンドラインから使いやすくすることを目的に作ったCLIです。人が操作するときの分かりやすさと、スクリプトから扱うときの使いやすさの両方を意識して実装しています。
+S7 is designed to work well for both people and scripts: interactive navigation for human use, predictable machine-readable output for automation, and diagnostics for troubleshooting.
 
-**主な機能**
+<sub lang="ja">Salta7 Store APIをターミナルから扱うPython製CLI。人が操作するときの分かりやすさと、自動処理で使いやすい出力の両方を意識して作っています。</sub>
 
-- ↑ / ↓ + Enterで操作できる対話式メニュー
-- 日本語・英語・韓国語・ヒンディー語のUI
-- `--json` / `--compact` / `--jsonl` の機械可読出力
-- タスクの `--watch` / `--wait` による進捗監視
-- 安全なAPI操作に対する自動リトライ
-- 通常表示でトークンなどの秘密情報をマスク
-- `s7 doctor` によるAPI・認証診断
+**Highlights**
+
+- Interactive ↑ / ↓ + Enter menu
+- English / Japanese / Korean / Hindi UI
+- `--json` / `--compact` / `--jsonl` machine-readable output
+- Task monitoring with `--watch` / `--wait`
+- Safe retries for supported API operations
+- Secret masking in normal output
+- `s7 doctor` API and authentication diagnostics
 - pytest + GitHub Actions CI
 
 <p>
@@ -87,15 +126,17 @@ S7は、API操作をコマンドラインから使いやすくすることを目
 ## `> focus`
 
 ```text
-CLI          → コマンド一つで使える、分かりやすい開発ツール
-Web          → 軽くて扱いやすいWebアプリ・インターフェース
-API          → 外部サービスをつなぐクライアントや連携処理
-Automation   → 繰り返し作業を減らす仕組み・ツール
+CLI          → clear, practical developer tools
+Web          → lightweight web apps and interfaces
+API          → clients, integrations, and data flow
+Automation   → tools that remove repetitive work
 ```
+
+<sub lang="ja">CLI、Web、API連携、自動化を中心に、実際に使えるものを作ることを重視しています。</sub>
 
 ## `> contact --open`
 
-開発についての相談、質問、連絡はこちらからどうぞ。
+Have a project, question, or something to build? Feel free to reach out.
 
 - **Portfolio:** https://reo-hp.vercel.app/
 - **GitHub:** https://github.com/dev-yom1
@@ -105,5 +146,5 @@ Automation   → 繰り返し作業を減らす仕組み・ツール
 
 <p align="center">
   <code>build → test → ship</code><br />
-  <sub>コードを書いて、ちゃんと使える形まで仕上げる。</sub>
+  <sub>Code it. Run it. Make it useful. / コードを書いて、ちゃんと使える形まで仕上げる。</sub>
 </p>
