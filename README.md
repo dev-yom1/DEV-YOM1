@@ -96,6 +96,7 @@ GDScript · Haxe · Smalltalk · LabVIEW · OpenSCAD · Scratch · Logo
 
 </details>
 
+<!-- S7 temporarily hidden while the repository is private.
 ## `> projects --featured`
 
 ### [S7 — Salta7 CLI](https://github.com/dev-yom1/S7)
@@ -122,6 +123,7 @@ S7 is designed to work well for both people and scripts: interactive navigation 
     <img src="https://img.shields.io/badge/View_Repository-S7-0066FF?style=for-the-badge&logo=github&logoColor=white" alt="View S7 repository" />
   </a>
 </p>
+-->
 
 ## `> focus`
 
