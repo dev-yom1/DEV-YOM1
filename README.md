@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://reo-hp.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-reo--hp.vercel.app-0066FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  <a href="https://yom1.me/">
+    <img src="https://img.shields.io/badge/Portfolio-yom1.me-0066FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/dev-yom1">
     <img src="https://img.shields.io/badge/GitHub-dev--yom1-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -125,6 +125,24 @@ S7 is designed to work well for both people and scripts: interactive navigation 
 </p>
 -->
 
+## `> selected-work`
+
+### 📘 Godot 4 入門 — Technical Review / Verification
+
+Technical verification for **『手を動かして学ぶGodot 4 入門 ― Unity経験者のためのハンズオンガイド(C#版)』**. I verified the manuscript workflow end-to-end and helped isolate environment-specific issues before publication.
+
+<sub lang="ja">Godot 4 / C# 技術書の制作に協力。原稿に沿って全手順を検証し、環境依存の事象の切り分け・確認にも参加。2026年9月Kindle出版、奥付に制作協力者として掲載。</sub>
+
+**Godot 4 · C# · Technical Review · Debugging**
+
+### 🐱 猫の箱 — Programmer / In Development
+
+Participating as a programmer in **『猫の箱』**, a 3D mobile cat-raising game currently in development with Unity and C#.
+
+<sub lang="ja">3D猫育成ゲーム『猫の箱』の開発チームにプログラマーとして参加中。公開済みのプロジェクト情報の範囲で掲載しています。</sub>
+
+**Unity · C# · GitHub · Game Development**
+
 ## `> focus`
 
 ```text
@@ -140,7 +158,7 @@ Automation   → tools that remove repetitive work
 
 Have a project, question, or something to build? Feel free to reach out.
 
-- **Portfolio:** https://reo-hp.vercel.app/
+- **Portfolio:** https://yom1.me/
 - **GitHub:** https://github.com/dev-yom1
 - **Email:** [devyomi@proton.me](mailto:devyomi@proton.me)
 
